@@ -1205,8 +1205,8 @@ class GameLauncher
         "EE,EE,EE,EE,EE,BP,EE,EE," +
         "EE,EE,EE,EE,EE,EE,EE,EE";
 
-        //Game game = new Game();
-        Game game = new Game(boardString, 1);
+        Game game = new Game();
+        //Game game = new Game(boardString, 1);
         game.startGame();
     }
 }
